@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>ErrorLogUtils</members>
+        <members>ErrorLogUtilsTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Error_Log__c.Context__c</members>
+        <members>Error_Log__c.Error_Fields__c</members>
+        <members>Error_Log__c.Error_Message__c</members>
+        <members>Error_Log__c.Error_Source__c</members>
+        <members>Error_Log__c.Error_Status_Code__c</members>
+        <members>Error_Log__c.Line_Number__c</members>
+        <members>Error_Log__c.Message__c</members>
+        <members>Error_Log__c.Reference_ID__c</members>
+        <members>Error_Log__c.Stack_Trace_String__c</members>
+        <members>Error_Log__c.Type__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Error_Log__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Error_Log__c-Error Log Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>55.0</version>
+</Package>
