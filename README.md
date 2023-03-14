@@ -1,7 +1,7 @@
 # ErrorLogUtils
 This package contains an Apex Class and Custom Object to log errors in the database. ESPECIALLY useful for catching errors in async operations such as Future, Queueable, and Schedulable.
 
-<a href="https://githubsfdeploy.herokuapp.com/app/githubdeploy/kevina-code/ErrorLogUtils?ref=master">
+<a href="https://githubsfdeploy.herokuapp.com">
   <img src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png" alt="Deploy to Salesforce" />
 </a>
 
