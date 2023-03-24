@@ -7,7 +7,7 @@ This package contains an Apex Class and Custom Object to log errors in the datab
 
 
 Usage:
-1. Scenario: inserting records in an async context where 'all or nothing' parameter is set to false.
+1. Scenario: inserting records in an async context (Future, Queueable, Schedulable, etc) where 'all or nothing' parameter is set to false.
 ```java
 Database.SaveResult[] srList = Database.update(accounts, false);
 ErrorLogUtils.processSaveResults(
